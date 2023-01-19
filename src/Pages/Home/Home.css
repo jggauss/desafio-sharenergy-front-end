@@ -1,0 +1,34 @@
+.tabela-home{
+    position: relative;
+    padding-left: 32px;
+    display: block;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-size: 18px;
+    color: darkslategrey;
+}
+
+.pesquisa {
+    font-size: 18px;
+    text-align: left;
+}
+.foto-usuario {
+    padding: 0 16px;
+    margin:  8px 16px;
+}
+.item-usuario {
+    text-align: left;
+}
+.cor-btn{
+    font-size: 16px;
+    padding: 8px ;
+    background-color:rgb(9, 125, 119);
+    color: #ffffff;
+    border-radius: 8px;
+}
+.cor-btn-desligado{
+    font-size: 16px;
+    padding: 8px ;
+    background-color:rgb(109, 148, 148);
+    color: #ffffff;
+    border-radius: 8px;
+}

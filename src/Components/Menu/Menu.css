@@ -1,0 +1,14 @@
+.menu-principal{
+    background-color: rgb(9, 125, 119);
+    padding: 32px 16px;
+}
+.item-menu {
+    
+    color: white;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-size: 24px;
+    font-weight: 800px;
+    margin: 16px 16px;
+    cursor: pointer;
+    text-decoration: none;
+}

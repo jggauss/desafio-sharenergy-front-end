@@ -1,0 +1,99 @@
+.formulario {
+    display: flex;
+    width: 450px;
+    padding: 15px;
+    margin: 80px 0;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.formulario-box {
+    display: block;
+    width: 100%;
+    align-items: center;
+    align-content: center;
+    max-width: 450px;
+    box-sizing: inherit;
+    background-color: rgb(255, 255, 255);
+    border-radius: 4px;
+
+    margin: 0 auto;
+    overflow: initial;
+
+}
+
+.formulario form {
+    display: block;
+    width: 100%;
+    box-sizing: inherit;
+}
+
+.img-login-box {
+    background-color: rgb(9, 125, 119);
+    position: relative;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+    min-height: 73px;
+    width: 100%;
+    min-width: 100%;
+    overflow: hidden;
+    opacity: 0.9;
+    border-radius: 4px;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+
+.img-login {
+    width: 100%;
+    max-width: 100%;
+    text-align: center;
+    margin-left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    padding-left: 24px;
+    padding-right: 24px;
+    box-sizing: border-box;
+
+}
+
+.foto {
+    max-width: 170px;
+    height: auto;
+    box-sizing: inherit;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.87)
+}
+
+.wraped-login {
+
+    margin-left: 30px;
+}
+
+.campo-login {
+    justify-content: space-between;
+
+}
+.rodapelogin{
+    width: 100%;
+   text-align: center;
+}
+
+.esqueceu-texto {
+    
+    padding: 8px;
+    margin: 8px;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 0.875rem;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 600;
+    line-height: 1.75;
+    letter-spacing: 0.02857em;
+    text-transform: uppercase;
+    
+    color: darkslategray;
+}

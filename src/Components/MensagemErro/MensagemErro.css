@@ -1,0 +1,11 @@
+.erro span {
+    font-size: 18px;
+    margin: 4px;
+}
+.erro .success {
+    
+    color:  rgb(9, 125, 119);
+}
+.erro .error {
+    color: red;
+}

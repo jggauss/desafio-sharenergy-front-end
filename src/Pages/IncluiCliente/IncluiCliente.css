@@ -1,0 +1,92 @@
+.form-cliente {
+    display: block;
+    width: 1000px;
+    color: darkslategrey;
+    margin: 32px;
+    padding: 8px;
+    border: 2px solid ;
+    border-color: rgb(9, 125, 119);
+    border-radius: 4px;
+    
+}    
+.titulo-pagina{
+    padding: 0 32px;
+    color: darkslategrey;
+}
+.campo-form-cliente{
+display: block; 
+align-content: space-between;   
+margin: 16px;
+
+border: 2px solid ;
+border-color: rgb(9, 125, 119);
+border-radius: 4px;
+
+    
+}
+.endereco {
+    display: block;
+    margin: 16px;
+    border: 2px solid ;
+    border-color: rgb(9, 125, 119);
+    border-radius: 4px;
+    padding-bottom: 32px;
+    
+
+}
+.cidade{
+    display: block;
+    margin-top: 16px;
+    border-color: rgb(9, 125, 119);
+    border-radius: 4px;
+
+}
+.titulo {
+    color: darkslategrey;
+    width: 350px;
+    display: inline-flex;
+    font-size: 18px;
+    margin-top: 8px;
+    border-radius: 4px;
+    margin-bottom: 8px;
+    margin-left: 16px;
+}
+.form-cliente label {
+    width: 60px;
+}
+.numero {
+    width: auto;
+    margin: 16px;
+    font-size: 18px;
+    border-radius: 4px;
+    color: darkslategrey;
+}
+.titulo-cep {
+    width: 120px;
+    margin: 16px;
+    font-size: 18px;
+    border-radius: 4px;
+    color: darkslategrey;
+}
+.titulo-estado{
+    padding-left: 16px;
+    margin-left: 8px;
+    width:140px;
+    font-size: 18px;
+    border-radius: 4px;
+    
+}
+.rodape{
+    display: flex;
+    
+}
+.separa-rodape{
+    padding-left: 16px;
+}
+.rodape-voltar {
+    text-decoration: none;
+    color: #ffffff;
+}
+.estado-selecao{
+    padding-left: 32px;
+}

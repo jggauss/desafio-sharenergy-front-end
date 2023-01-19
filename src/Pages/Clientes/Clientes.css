@@ -1,0 +1,67 @@
+
+.tabela{
+    
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    position: relative;
+    padding-left: 32px;
+    display: block;
+    font-size: 18px;
+    color: darkslategrey;
+}
+.tabela-clientes{
+    font-size: 18px;
+    color: darkslategrey;
+}
+.acoes {
+    display: inline-flex;
+    padding-left: 16px;
+    margin: 8px;
+}
+.edita {
+    background-color: #5bc0de;
+    opacity: 0.8;
+    padding: 8px 16px;
+    margin: 8px 16px;
+    border-radius: 4px;
+    text-decoration: none;
+    cursor: pointer;
+}
+.altera {
+    background-color: #ed9c28;
+    opacity: 0.8;
+    padding: 8px 16px;
+    margin: 8px 16px;
+    border-radius: 4px;
+    text-decoration: none;
+    cursor: pointer;
+}
+.exclui {
+    background-color: #d2322d;
+    opacity: 0.8;
+    padding: 8px 16px;
+    margin: 8px 16px;
+    border-radius: 4px;
+    text-decoration: none;
+    cursor: pointer;
+}
+.item-tabela-cliente {
+    padding-left: 12px;
+    font-weight: 500;
+    
+}
+.inclui-cliente{
+    
+    cursor: pointer;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+
+.rodape{
+    display: flex;
+    
+}
+.separa-rodape{
+    
+    padding-left: 16px;
+}

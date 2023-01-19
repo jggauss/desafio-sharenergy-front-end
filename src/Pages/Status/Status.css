@@ -1,0 +1,56 @@
+.tabela-status{
+    position: relative;
+    padding-left: 32px;
+    display: block;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-size: 18px;
+    color: darkslategrey;
+}
+.status {
+    padding: 16px;
+    
+    
+}
+.divide-status{
+    display: inline-flex;
+    padding-left: 16px;
+    ;
+    align-items: top;
+    text-align: center;
+    
+    font-size: 18px;
+    color: darkslategrey;
+
+
+}
+.separa {
+    padding-left: 32px;
+    display: flex;
+    padding-top: 4px;
+}
+.seleciona-status {
+    font-size: 18px;
+    color: darkslategrey;
+    padding: 16px;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+}
+.escolha {
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    height: 40px;
+    font-weight: 500;
+    font-size: 18px;
+    color: darkslategrey;
+    
+}
+.rodape{
+    display: block;
+    text-decoration: none;
+    color: #ffffff;
+    width: 60px;
+    
+}
+.btn{
+width: 120px;
+color: #ffffff;
+text-decoration: none;
+}

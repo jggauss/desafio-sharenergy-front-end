@@ -1,0 +1,101 @@
+.tela {
+    display: block;
+    width: 100%;
+    color: darkslategrey;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    
+}
+.centraliza-box {
+    width: 100%;
+    padding: 32px ;
+    display: flex;
+    
+}
+.tabela-consulta{
+    border-radius: 4px;
+    width: 800px;
+    padding: 32px;
+    display: block;
+    
+    font-size: 18px;
+    color: darkslategrey;
+    border: 2px solid ;
+    border-color: rgb(9, 125, 119);
+    
+}
+.linha-consulta{
+    display: flex;
+    
+    margin: 8px;
+    width: 600px;
+    border: 2px solid ;
+    border-color: rgb(9, 125, 119);
+    border-radius: 4px;
+}
+.linha-consuta{
+    
+
+}
+.cor-campo{
+    background-color:rgb(187, 230, 228); 
+    width: auto;
+    display: flex;
+}
+
+.campo{
+    
+    font-weight: 600;
+    padding: 0 8px;
+    
+    width: 90px;
+    margin: 8px;
+    
+
+
+}
+.valor{
+    font-size: 18px;
+    font-weight: 500;
+    color: darkslategrey;
+    padding: 0 16px;
+    margin: 8px;
+
+}
+
+.titulo{
+    font-size: 18px;
+    /* font-weight: 500; */
+    color: darkslategrey;
+    padding: 0 16px;
+    margin: 8px;
+
+}
+.mostra-estado{
+    margin: 8px;
+}
+.titulo-estado{
+    padding-left: 16px;
+    margin-left: 8px;
+    width:140px;
+    font-size: 18px;
+    border-radius: 4px;
+    color: darkslategrey;;
+    
+}
+.escolhe-estado{
+    margin-left: 8px;
+    
+    margin-top: 8px;
+    height: 40px;
+}
+.rodape{
+    width: 300px;
+    
+    display: inline-flex;
+    justify-content: space-between;
+    padding: 0 66px;
+}
+.inclui-cliente {
+    
+    text-align: center;
+}

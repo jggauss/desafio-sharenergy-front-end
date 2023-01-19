@@ -1,0 +1,14 @@
+.cabecalho{
+    background-color: rgb(37, 84, 83);
+    padding: 16px ;
+}
+.texto-cabecalho {
+    
+    color: white;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 800px;
+
+
+}

@@ -1,0 +1,70 @@
+.tela {
+    
+    display: block;
+    width: 100%;
+    
+}
+.centraliza-box {
+    width: 100%;
+    padding: 32px ;
+    display: flex;
+    
+}
+.tabela-consulta{
+    border-radius: 4px;
+    width: 800px;
+    padding:0 32px 32px 32px;
+    display: block;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-size: 18px;
+    color: darkslategrey;
+    border: 2px solid ;
+    border-color: rgb(9, 125, 119);
+    
+}
+.linha-consulta{
+    display: flex;
+    margin: 8px;
+    width: 700px;
+    border: 2px solid ;
+    border-color: rgb(9, 125, 119);
+    border-radius: 4px;
+    
+}
+.cor-campo{
+    background-color:rgb(187, 230, 228); 
+}
+
+.campo{
+    font-weight: 600;
+    padding: 0 8px;
+    width: 90px;
+    margin: 8px;
+
+}
+.valor{
+    font-size: 18px;
+    font-weight: 500;
+    color: darkslategrey;
+    padding: 0 16px;
+
+}
+.confirma-exclusao{
+   display: flex;
+    text-align: center;
+    color: #ffffff;
+    cursor: pointer;
+    text-decoration: none;
+    padding: 16px 100px 0 100px;
+    justify-content: space-around;
+}
+.texto{
+    text-decoration: none;
+}
+
+.exclui-cliente{
+    
+    cursor: pointer;
+    text-decoration: none;
+    color: #ffffff;
+}
