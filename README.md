@@ -34,3 +34,9 @@ npm i js-cookie
 ### Mascaras para cpf e telefone
 ### react-text-mask
 npm i react-text-mask
+
+### validar campos de entradas
+npm i yup
+
+### Manipular datas Moment
+npm i moment

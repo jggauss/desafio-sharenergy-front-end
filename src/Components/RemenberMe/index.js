@@ -1,5 +1,3 @@
-
-
 import { useEffect, useState } from 'react'
 import GetCookie from '../../Hook/getCookie'
 import SetCookie from '../../Hook/setCookie'

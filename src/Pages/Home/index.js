@@ -4,6 +4,7 @@ import api from '../../Config/ConfigApi'
 import MensagemErro from '../../Components/MensagemErro'
 import Menu from '../../Components/Menu'
 import Cabecalho from '../../Components/Cabecalho'
+import ConsultaCliente from '../ConsultaCliente'
 
 const Home = () => {
     const [status, setStatus] = useState({
@@ -32,6 +33,13 @@ const Home = () => {
 
         await api.get('/users/' + page + "/", headers)
             .then((response) => {
+                if(Number(response.data.countUser)===0){
+                    
+                    return setStatus({
+                        type: 'error',
+                        message: "Não há usuários cadastrados"
+                    })
+                }
                 setData(response.data.users)
                 setLastPage(response.data.lastPage)
                 setStatus({
@@ -72,7 +80,7 @@ const Home = () => {
                 })
                 .catch((erro) => {
 
-                    if (erro.response) {
+                    if (erro) {
                         setStatus({
                             type: 'error',
                             message: erro.response.data.message

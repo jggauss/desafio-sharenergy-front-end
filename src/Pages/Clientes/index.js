@@ -6,7 +6,7 @@ import MensagemErro from '../../Components/MensagemErro'
 import Menu from '../../Components/Menu'
 import api from '../../Config/ConfigApi'
 import Cabecalho from '../../Components/Cabecalho'
-//import Botao from "../../Components/Botao";
+
 const Clientes = () => {
     var { state } = useLocation()
     const [data, setData] = useState([])

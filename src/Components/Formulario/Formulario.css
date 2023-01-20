@@ -1,5 +1,5 @@
 .formulario {
-    display: flex;
+    display: block;
     width: 450px;
     padding: 15px;
     margin: 80px 0;
@@ -7,7 +7,7 @@
 }
 
 .formulario-box {
-    display: block;
+    display: inline-block;
     width: 100%;
     align-items: center;
     align-content: center;
@@ -15,7 +15,7 @@
     box-sizing: inherit;
     background-color: rgb(255, 255, 255);
     border-radius: 4px;
-
+    
     margin: 0 auto;
     overflow: initial;
 
@@ -69,9 +69,12 @@
 }
 
 .wraped-login {
-
     margin-left: 30px;
 }
+.wraped-login{
+    
+}
+
 
 .campo-login {
     justify-content: space-between;
@@ -83,7 +86,7 @@
 }
 
 .esqueceu-texto {
-    
+    text-decoration: none;
     padding: 8px;
     margin: 8px;
     cursor: pointer;
@@ -96,4 +99,10 @@
     text-transform: uppercase;
     
     color: darkslategray;
+}
+.btn-Login{
+    
+    
+    
+    
 }
